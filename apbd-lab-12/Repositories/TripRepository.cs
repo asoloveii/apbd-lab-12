@@ -8,9 +8,9 @@ namespace apbd_lab_12.Repositories;
 
 public class TripRepository : ITripRepository
 {
-    private readonly AppDbContext _context;
+    private readonly ApbdLab12Context _context;
 
-    public TripRepository(AppDbContext context)
+    public TripRepository(ApbdLab12Context context)
     {
         _context = context;
     }

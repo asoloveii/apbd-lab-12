@@ -6,9 +6,9 @@ namespace apbd_lab_12.Repositories;
 
 public class ClientRepository : IClientRepository
 {
-    private readonly AppDbContext _context;
+    private readonly ApbdLab12Context _context;
 
-    public ClientRepository(AppDbContext context)
+    public ClientRepository(ApbdLab12Context context)
     {
         _context = context;
     }

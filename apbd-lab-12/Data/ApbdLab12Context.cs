@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace apbd_lab_12.Data;
 
-public class AppDbContext : DbContext
+public class ApbdLab12Context
+    : DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options)
+    public ApbdLab12Context(DbContextOptions<ApbdLab12Context> options)
         : base(options)
     {
     }
